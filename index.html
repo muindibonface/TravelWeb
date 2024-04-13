@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tours travels</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Hillboy Travels</h2>
+            <div class="toggle"></div>
+        </header>
+        <div class="banner">
+            <video autoplay muted loop>
+                <source src="./images/The Magnificent Beauty of Nature _ Adiemus • HD(1080P_HD)(720P_60FPS).mp4" type="video/mp4">
+            </video> 
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>never stop travelling </h2>
+                <h3>and discovering the wonders of nature </h3>
+                <p> Travel today with the leading and most reliable travel agengy with over 140 destinations aroud the globe
+                    .</p>
+                    <a href="#">explore</a>
+            </div>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="FBm.png" alt=""></li>
+            <li><a href="#"><img src="IG.png" alt=""></li>
+            <li><a href="#"><img src="KOT.png" alt=""></li>
+
+        </ul>
+    </section>
+    <div class="menu">
+        <ul> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click',() =>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    
+</body>
+</html>
